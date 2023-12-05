@@ -19,9 +19,12 @@ import settings
 
 def main():
     if settings.WEATHER:
-        weather = API_caller.weather_API(settings.WEATHER_API_KEY)
+        weather = API_caller.weather_API(settings.WEATHER_API_KEY, settings.WEATHER_CITY)
         weather.show_current_weather_information()
+        # weather.show_forecast_information(days=5)
 
 
 if __name__ == "__main__":
     main()
+
+# End of console_weather.py

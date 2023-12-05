@@ -28,5 +28,6 @@ logging.basicConfig(filename="./Hinfo.log", level=logging.WARNING, format="%(asc
 # more details to be seen in README.md
 WEATHER = True
 WEATHER_API_KEY = "YOUR_API_KEY" # API key from https://www.weatherapi.com/
+WEATHER_CITY = "Paris"
 
 # End of settings.py
