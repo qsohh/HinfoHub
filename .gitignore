@@ -7,9 +7,8 @@ __pycache__/
 # Files to ignore
 hhnote.txt
 *.code-workspace
-test_call.py
-test_caller_weather.py
 test/*.txt
+test/test*.py
 *.log
 
 # Ignore local settings.py file as containing sensitive information
