@@ -71,6 +71,8 @@ class stock_analyser:
 
     def SD(self, start_date: str = "03/01/2022", end_date: str = "LAST"):
         """*calculate the standard deviation*
+
+        TODO: this SD should be normalized or not?
         """
         if end_date == "LAST":
             end_date = self._stock_price.index[-1]
@@ -99,6 +101,10 @@ class stock_analyser:
 
 def treat_price(stock_name: str):
     """*treat the price data*
+
+    This function is used to treat the price data from Boursorama.
+    The price data can be downloaded from https://www.boursorama.com/cours/[certain_stock]/ via the button "Télécharger les cotations".
+    Remeber to select the period of time (up to 10 years can be obtained).
     """
     current_path = os.getcwd()
     # then get the path of the stock data, if /data is not in the current path, then go to the parent path
@@ -128,6 +134,9 @@ def treat_price(stock_name: str):
 
 def save_dividend(stock_name: str):
     """*save the dividend data*
+
+    Now you have to add the dividend data manually, or to find a way to extract the dividend data from the website.
+    Considering potential legal liabilities, I will not propose any way to extract the dividend data automatically.
     """
     dividend = {"DD/MM/YYYY": 0.00}
     df = pd.DataFrame.from_dict(dividend, orient="index", columns=["dividende"])
