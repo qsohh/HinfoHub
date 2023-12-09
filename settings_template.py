@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """ settings
-  opyright (C) 2023 Hao HUANG
-  Resume of file :
-    In this file, we define the basic settings for the program, such as the API key.
-    Note that this file is not included in the repository. But a template is provided
-    in order to help you to create your own settings.py.
+    opyright (C) 2023 Hao HUANG
+    Resume of file :
+        In this file, we define the basic settings for the program, such as the API key.
+        Note that this file is not included in the repository. But a template is provided
+        in order to help you to create your own settings.py.
 """
 ############################################################################
 

@@ -4,12 +4,20 @@
 .vscode/
 __pycache__/
 
+# Ignore local stored data
+data/
+
 # Files to ignore
 hhnote.txt
 *.code-workspace
 test/*.txt
 test/test*.py
+test/*.csv
 *.log
+test*.txt
+
+# files temporarily not to be uploaded
+stock_caller.py
 
 # Ignore local settings.py file as containing sensitive information
 # Keep settings_template.py as a template for

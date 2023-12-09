@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """ exception
-  opyright (C) 2023 Hao HUANG
-  Resume of file :
-    In this file, we define the customised exceptions.
+    opyright (C) 2023 Hao HUANG
+    Resume of file :
+        In this file, we define the customised exceptions.
 """
 ############################################################################
 

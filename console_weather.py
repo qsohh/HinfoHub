@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """ console_weather
-  opyright (C) 2023 Hao HUANG
-  Resume of file :
-    This file is used to display the weather information on the console.
+    opyright (C) 2023 Hao HUANG
+    Resume of file :
+        This file is used to display the weather information on the console.
 """
 ############################################################################
 
