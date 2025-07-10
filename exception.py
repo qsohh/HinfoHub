@@ -12,4 +12,12 @@ class API_caller_Exception(Exception):
     "raise this exception when the API caller is not working properly"
     pass
 
+class crypto_API_Exception(Exception):
+    "raise this exception when the crypto API is not working properly"
+    pass
+
+class crypto_API_key_Exception(crypto_API_Exception):
+    "raise this exception when the crypto API key is not valid"
+    pass
+
 # End of file

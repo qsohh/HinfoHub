@@ -15,6 +15,8 @@ test/test*.py
 test/*.csv
 *.log
 test*.txt
+test*.py
+console_kline.py
 
 # files temporarily not to be uploaded
 stock_caller.py
