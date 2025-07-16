@@ -17,6 +17,8 @@ test/*.csv
 test*.txt
 test*.py
 console_kline.py
+run_backtest.py
+backtest_portfolio_value.csv
 
 # files temporarily not to be uploaded
 stock_caller.py
